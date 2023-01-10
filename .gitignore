@@ -1,0 +1,5 @@
+*png
+*jpeg
+*.py
+*.txt
+!smart_home.py
