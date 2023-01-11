@@ -1,4 +1,4 @@
-import threading, requests
+import threading, requests,json, time
 lock = threading.Lock()
 sm = threading.Semaphore(2)
 
@@ -40,8 +40,13 @@ def task1():
         case "m":
             pass
 
-def task2():
-    resp = requests.get("http://localhost:8000/cgi-bin/exemple_json.py")
+def task2( ):
+    while True:
+        obj = None
+        response = requests.get("http://localhost:8000/cgi-bin/exemple_json.py")
+        obj = json.loads(response.text)
+        print(obj)
+        time.sleep(5)
 
 th1 = threading.Thread(target=task1)
 th2 = threading.Thread(target=task2)
