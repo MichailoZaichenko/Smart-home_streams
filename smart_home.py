@@ -1,8 +1,10 @@
-import threading, requests,json, time, os
+import threading, requests,json, datetime, os
 sm = threading.Semaphore(2)
 data = None
 lock_data = threading.Lock()
+exit = threading.Event()
 def task1():
+    global exit
     choise1 = input("Что вы хотите узнать? Температура/Влажность(T), Счетчики(S), Котел(K), Журнал(M)")
     match choise1.lower():
         case "t":
@@ -39,13 +41,18 @@ def task1():
                     boiler_pres = task2()['boiler']["pressure"]
                     print(f"Теспература в бойлере: {boiler_temp} ℃, давление в боллере {boiler_pres}")
                 case "p":
+                    if task2()['boiler']['isRun'] == False:
+                        task2()['boiler']['isRun'] = True
                     print("Болер включён!")
                 case "u":
+                    if task2()['boiler']['isRun'] == True:
+                        task2()['boiler']['isRun'] = False
                     print("Болер выключен!")
                 case "b":
                     task1()
         case "m":
             print(data)
+    exit.set()
 
 def task2( ):
     while True:
@@ -53,8 +60,13 @@ def task2( ):
         response = requests.get("http://localhost:8000/cgi-bin/exemple_json.py")
         lock_data.acquire()
         data = json.loads(response.text)
-        time.sleep(5)
+        time = str(datetime.datetime.now())
+        with open("data.txt", "a")as file:
+            file.write(time + "\n" + str(data))
         lock_data.release()
+        if exit.wait(7):
+            return
+        exit.clear()
         return data
         # data = response.json()
         # with open("example.txt", "w") as file:

@@ -2,5 +2,9 @@
 *jpeg
 *.py
 *.txt
-*.json
 !smart_home.py
+!server.py
+!exemple_json.py
+*.json
+!example.json
+!data.txt
