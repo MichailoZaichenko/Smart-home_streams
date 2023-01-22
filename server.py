@@ -8,3 +8,5 @@ handler.cgi_directories = ["/cgi-bin"]
 
 httpd = server(server_address, handler)
 httpd.serve_forever()
+
+# http://localhost:8000/cgi-bin/exemple_json.py

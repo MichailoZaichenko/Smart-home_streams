@@ -1,8 +1,11 @@
 import threading, requests,json, datetime, sys
+import time as t
+
 sm = threading.Semaphore(2)
 data = None
 lock_data = threading.Lock()
 exit = threading.Event()
+
 def task1():
     global exit
     while True:
@@ -13,12 +16,12 @@ def task1():
                 match chois2.lower():
                     case "n":
                         lock_data.acquire()
-                        temp = task2()["temperature"]
-                        humidity = task2()["humidity"]
+                        temp = data["temperature"]
+                        humidity = data["humidity"]
                         print(f"Текущая температура: {temp} ℃, текущая влажность: {humidity}")
                         lock_data.release()
                     case "a":
-                        pass
+                        print(AVERAGE_TEMP())
                     case "b":
                         task1()
 
@@ -27,17 +30,17 @@ def task1():
                 match chois3.lower():
                     case "e":
                         lock_data.acquire()
-                        electricity = task2()["meter"]["electricity"]["consumption"]
+                        electricity = data["meter"]["electricity"]["consumption"]
                         print(f"споживання електроенергії: {electricity} Кв")
                         lock_data.release()
                     case "g":
                         lock_data.acquire()
-                        gas = task2()["meter"]["gas"]["consumption"]
+                        gas = data["meter"]["gas"]["consumption"]
                         print(f"споживання електроенергії: {gas} м3")
                         lock_data.release()
                     case "w":
                         lock_data.acquire()
-                        water = task2()["meter"]["water"]["consumption"]
+                        water = data["meter"]["water"]["consumption"]
                         print(f"споживання електроенергії: {water} м3")
                         lock_data.release()
                     case "b":
@@ -47,20 +50,20 @@ def task1():
                 match chois4.lower():
                     case "c":
                         lock_data.acquire()
-                        boiler_temp = task2()['boiler']["temperature"]
-                        boiler_pres = task2()['boiler']["pressure"]
+                        boiler_temp = data['boiler']["temperature"]
+                        boiler_pres = data['boiler']["pressure"]
                         print(f"Теспература в бойлере: {boiler_temp} ℃, давление в боллере {boiler_pres}")
                         lock_data.release()
                     case "p":
                         lock_data.acquire()
-                        if task2()['boiler']['isRun'] == False:
-                            task2()['boiler']['isRun'] = True
+                        if data['boiler']['isRun'] == False:
+                            data['boiler']['isRun'] = True
                         print("Болер включён!")
                         lock_data.release()
                     case "u":
                         lock_data.acquire()
-                        if task2()['boiler']['isRun'] == True:
-                            task2()['boiler']['isRun'] = False
+                        if data['boiler']['isRun'] == True:
+                            data['boiler']['isRun'] = False
                         print("Болер выключен!")
                         lock_data.release()
                     case "b":
@@ -70,8 +73,9 @@ def task1():
                 print(data)
                 lock_data.release()
             case "e":
+                exit.set()
                 sys.exit()
-        exit.set()
+
 
 def task2( ):
     while True:
@@ -83,9 +87,20 @@ def task2( ):
         data = json.loads(response.text)
         time = str(datetime.datetime.now())
         with open("data.txt", "a")as file:
-            file.write(time + "\n" + str(data))
+            file.write(time + "\n" + str(data)+ "\n")
         lock_data.release()
-        
+        t.sleep(5)
+
+def AVERAGE_TEMP():
+    with open('data.txt', 'r') as f:
+        last_line = f.readlines()[-1]
+    temp_avr1 = last_line["temperature"]
+    with open('data.txt', 'r') as f:
+        last_line1 = f.readlines()[-2]
+    temp_avr2 = last_line1["temperature"]
+    temp_avr = (temp_avr1+temp_avr2)/2
+    return temp_avr
+
 
 th1 = threading.Thread(target=task1)
 th2 = threading.Thread(target=task2, daemon=True)
