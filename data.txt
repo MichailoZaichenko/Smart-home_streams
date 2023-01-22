@@ -1,251 +1,191 @@
-2023-01-22 15:58:23.480984
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:58:47.199708
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:58:53.286090
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:58:59.378541
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:05.466378
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:11.554013
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:17.636719
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:23.732363
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:29.826658
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:35.915829
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:41.278586
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:47.358194
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:53.442041
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 15:59:59.528753
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:05.615872
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:11.706736
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:17.796350
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:23.884579
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:29.964745
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:36.044045
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:42.129330
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:48.215128
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:00:54.308112
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:00.396477
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:06.484590
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:12.575011
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:18.666714
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:24.755072
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:30.834573
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:36.912112
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:42.997025
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:49.085264
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:01:55.180846
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:01.267480
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:07.335514
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:11.465853
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:17.545290
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:23.623981
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:29.709716
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:35.827259
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:41.921577
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:48.007157
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:02:54.094327
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:00.183506
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:06.257287
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:12.343052
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:18.428906
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:24.517394
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:30.606772
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:36.694809
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:42.791084
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:48.878280
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:03:54.967662
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:01.055267
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:07.116349
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:13.206229
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:19.294555
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:25.375591
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:31.454063
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:37.537990
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:43.625752
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:49.717122
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:04:55.795277
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:01.876547
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:07.959415
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:14.047017
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:20.135869
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:26.233111
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:32.315372
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:38.405353
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:44.498367
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:50.585900
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:05:56.693711
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:02.758773
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:08.840379
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:14.925567
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:21.012911
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:27.106864
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:33.194795
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:39.274568
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:45.350431
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:51.432175
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:06:57.523999
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:03.607972
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:09.688702
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:15.766173
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:21.852292
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:27.936881
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:34.026579
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:40.114913
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:46.204027
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:52.296255
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:07:58.385815
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:04.463242
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:10.542281
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:16.625920
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:22.717432
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:28.809795
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:34.896800
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:40.986299
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:47.081984
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:53.171960
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:08:59.255966
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:05.335390
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:11.420168
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:17.502390
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:23.588583
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:29.677365
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:35.801471
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:41.890158
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:47.964941
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:09:54.050662
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:00.130123
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:06.237416
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:12.321273
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:18.388631
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:24.464446
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:30.551707
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:10:36.638422
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:14:48.487358
-2023-01-22 16:15:15.211576
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:15:21.294645
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:15:27.376214
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:15:33.463293
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:15:39.553198
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
-2023-01-22 16:15:45.641262
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
+{'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}
 {'temperature': 25.2, 'humidity': 73.6, 'meter': {'electricity': {'reading': 12345.6, 'consumption': 1.2}, 'gas': {'reading': 12345.6789, 'consumption': 0.5}, 'water': {'reading': 12345.67, 'consumption': 0.1}}, 'boiler': {'isRun': True, 'temperature': 28.2, 'pressure': 1.6}}

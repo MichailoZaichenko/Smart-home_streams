@@ -6,6 +6,18 @@ data = None
 lock_data = threading.Lock()
 exit = threading.Event()
 
+def Average_temp( ):
+    data = []
+    with open('data.txt', 'r') as f:
+        data = f.readlines()
+    count = len(data)
+    if count >= 6:
+        data = data[-1:-7:-1]
+    elif count > 0:
+        data = data[-1, -count-1, -1]
+    data = data.map(lambda x: int(x), data)
+    return sum(data) / count
+
 def task1():
     global exit
     while True:
@@ -21,7 +33,7 @@ def task1():
                         print(f"Текущая температура: {temp} ℃, текущая влажность: {humidity}")
                         lock_data.release()
                     case "a":
-                        print(AVERAGE_TEMP())
+                        print(Average_temp())
                     case "b":
                         task1()
 
@@ -87,19 +99,9 @@ def task2( ):
         data = json.loads(response.text)
         time = str(datetime.datetime.now())
         with open("data.txt", "a")as file:
-            file.write(time + "\n" + str(data)+ "\n")
+            file.write(str(data) + "\n")
         lock_data.release()
         t.sleep(5)
-
-def AVERAGE_TEMP():
-    with open('data.txt', 'r') as f:
-        last_line = f.readlines()[-1]
-    temp_avr1 = last_line["temperature"]
-    with open('data.txt', 'r') as f:
-        last_line1 = f.readlines()[-2]
-    temp_avr2 = last_line1["temperature"]
-    temp_avr = (temp_avr1+temp_avr2)/2
-    return temp_avr
 
 
 th1 = threading.Thread(target=task1)
