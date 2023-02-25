@@ -8,14 +8,15 @@ exit = threading.Event()
 
 def Average_temp( ):
     data = []
-    with open('data.txt', 'r') as f:
+    with open('exemple.json', 'r') as f:
         data = f.readlines()
+        data = list(data)
     count = len(data)
     if count >= 6:
         data = data[-1:-7:-1]
     elif count > 0:
         data = data[-1, -count-1, -1]
-    data = data.map(lambda x: int(x), data)
+    data = list(map(lambda x: int(x), data))
     return sum(data) / count
 
 def task1():
@@ -33,7 +34,11 @@ def task1():
                         print(f"Текущая температура: {temp} ℃, текущая влажность: {humidity}")
                         lock_data.release()
                     case "a":
-                        print(Average_temp())
+                        lock_data.acquire()
+                        temp = data["temperature"]
+                        humidity = data["humidity"]
+                        print(f"Текущая температура: {temp} ℃, текущая влажность: {humidity}")
+                        lock_data.release()
                     case "b":
                         task1()
 
